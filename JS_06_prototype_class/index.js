@@ -69,12 +69,12 @@ Hamburger.STUFFINGS = {
     calories: 20,
   },
   [Hamburger.STUFFING_SALAD]: {
-    price: 20,
+    price: 25,
     calories: 5,
   },
   [Hamburger.STUFFING_MEAT]: {
     price: 35,
-    calories: 15,
+    calories: 20,
   },
 };
 
