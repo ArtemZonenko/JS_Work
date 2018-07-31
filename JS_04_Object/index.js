@@ -155,3 +155,5 @@ const order = {
   console.log(mango.totalPrice); // 0
   console.log(mango.customerMoney); // 0
   console.log(mango.changeAmount); // 0
+
+
