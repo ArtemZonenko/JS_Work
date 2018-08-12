@@ -120,4 +120,3 @@ hamburger.removeTopping(Hamburger.TOPPING_SPICE);
 
 // Смотрим сколько добавок
 console.log("Hamburger has %d toppings", hamburger.getToppings.length); // 1
-

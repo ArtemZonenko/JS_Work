@@ -31,30 +31,30 @@ function createPostCard(obj) {
   }
   console.log(obj);
   const pic = constructElement("img", {
-    "src": 'obj.img',
-    "class": 'post__image',
-    "alt": 'post image'
+    "src": obj.img,
+    "class": post__image,
+    "alt": post_image,
   });
 
   const head = constructElement("h2", {
-    "class": 'post__title'
+    "class": post__title
   });
   head.textContent = obj.title;
 
   const text = constructElement("p", {
-    "class": "post__text"
+    "class": post__text
   });
   text.textContent = obj.text;
 
   const but = constructElement("a", {
-    "class": "button",
-    "href": 'obj.link'
+    "class": button,
+    "href": obj.link,
   });
   but.textContent = "Read more";
 
 
   const post = constructElement("div", {
-    "class": "post"
+    "class": post,
   });
   const children = [pic, head, text, but];
   children.forEach(ch => post.appendChild(ch));
